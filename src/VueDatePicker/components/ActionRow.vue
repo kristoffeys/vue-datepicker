@@ -35,7 +35,11 @@
         </div>
     </div>
 </template>
-
+<script type="ts">
+export default {
+  compatConfig: { MODE: 3 },
+}
+</script>
 <script lang="ts" setup>
     import { computed, inject, onMounted, ref } from 'vue';
     import type { PropType, ComputedRef, Ref } from 'vue';

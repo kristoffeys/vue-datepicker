@@ -15,7 +15,11 @@
         </div>
     </div>
 </template>
-
+<script type="ts">
+export default {
+  compatConfig: { MODE: 3 },
+}
+</script>
 <script lang="ts" setup>
     import type { PropType } from 'vue';
     import { onMounted, ref } from 'vue';

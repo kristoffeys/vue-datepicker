@@ -152,7 +152,11 @@
         </teleport>
     </div>
 </template>
-
+<script type="ts">
+  export default {
+    compatConfig: { MODE: 3 },
+  }
+</script>
 <script lang="ts" setup>
     import { getHours, getMinutes, getSeconds } from 'date-fns';
     import { computed, nextTick, onMounted, onUnmounted, provide, ref, toRef, useSlots, watch } from 'vue';
