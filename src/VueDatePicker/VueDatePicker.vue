@@ -152,10 +152,10 @@
         </teleport>
     </div>
 </template>
-<script type="ts">
-  export default {
-    compatConfig: { MODE: 3 },
-  }
+<script lang="ts">
+    export default {
+        compatConfig: { MODE: 3 },
+    };
 </script>
 <script lang="ts" setup>
     import { getHours, getMinutes, getSeconds } from 'date-fns';

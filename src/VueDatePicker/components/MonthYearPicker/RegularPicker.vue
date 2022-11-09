@@ -37,10 +37,10 @@
         </SelectionGrid>
     </transition>
 </template>
-<script type="ts">
-export default {
-  compatConfig: { MODE: 3 },
-}
+<script lang="ts">
+    export default {
+        compatConfig: { MODE: 3 },
+    };
 </script>
 <script lang="ts" setup>
     import { onMounted, ref } from 'vue';

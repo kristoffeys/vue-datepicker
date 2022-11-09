@@ -212,10 +212,10 @@
         </div>
     </transition>
 </template>
-<script type="ts">
-  export default {
-      compatConfig: { MODE: 3 },
-  }
+<script lang="ts">
+    export default {
+        compatConfig: { MODE: 3 },
+    };
 </script>
 <script lang="ts" setup>
     import { computed, inject, onMounted, onUnmounted, reactive, ref, useSlots } from 'vue';

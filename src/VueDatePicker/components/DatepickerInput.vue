@@ -56,10 +56,10 @@
         </div>
     </div>
 </template>
-<script type="ts">
+<script lang="ts">
     export default {
         compatConfig: { MODE: 3 },
-    }
+    };
 </script>
 <script lang="ts" setup>
     import { computed, inject, ref } from 'vue';
